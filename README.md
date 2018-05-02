@@ -10,3 +10,7 @@ full-name
 
 
 Credits to https://gist.github.com/kamermans/1441495 Mysql original version
+
+246 countries originally included
+
+Comments for completition are welcomed
