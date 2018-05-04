@@ -287,7 +287,11 @@ INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES 
 INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES ('ZA', 'South Africa', 'Republic of South Africa', 'ZAF', 710, 'AF');
 INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES ('ZM', 'Zambia', 'Republic of Zambia', 'ZMB', 894, 'AF');
 INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES ('ZW', 'Zimbabwe', 'Republic of Zimbabwe', 'ZWE', 716, 'AF');
-
+INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES ('BQ', 'Bonaire', 'Bonaire, Sint Eustatius and Saba', 'BES', 535, 'NA');
+INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES ('CW', 'Curaçao', 'Curaçao', 'CUW', 531, 'NA');
+INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES ('SS', 'South Sudan', 'South Sudan', 'SSD', 728, 'AF');
+INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES ('SX', 'Sint Maarten', 'Sint Maarten (Dutch part)', 'SXM', 534, 'NA');
+INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES ('XK', 'Kosovo', 'Kosovo', '',, 'EU');
 
 --
 -- PostgreSQL database dump complete
