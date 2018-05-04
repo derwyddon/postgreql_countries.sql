@@ -13,8 +13,8 @@ COMMENT on column continent.name is 'Continent name';
 CREATE TABLE "country" (
     "code" char(2) NOT NULL,
     "name" varchar(128) NOT NULL,
-    "full_name" varchar(256) NOT NULL,
-    "iso3" char(3) NOT NULL,
+    "full_name" varchar(256),
+    "iso3" char(3),
     "iso_number" int2 ,
     "continent" char(2) NOT NULL,
     PRIMARY KEY ("code")
@@ -291,7 +291,7 @@ INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES 
 INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES ('CW', 'Curaçao', 'Curaçao', 'CUW', 531, 'NA');
 INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES ('SS', 'South Sudan', 'South Sudan', 'SSD', 728, 'AF');
 INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES ('SX', 'Sint Maarten', 'Sint Maarten (Dutch part)', 'SXM', 534, 'NA');
-INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES ('XK', 'Kosovo', 'Kosovo', '',, 'EU');
+INSERT INTO country (code, name, full_name, iso3, iso_number, continent) VALUES ('XK', 'Kosovo', 'Kosovo', '',0, 'EU');
 
 --
 -- PostgreSQL database dump complete
